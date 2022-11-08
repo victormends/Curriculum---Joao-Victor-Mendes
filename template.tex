@@ -1,0 +1,163 @@
+%Olá Tio Rafa! sou o aluno João Victor Mendes (211708033)
+
+%usei este templante https://www.latextemplates.com/template/twenty-seconds-resumecv;
+
+%optei por usar um template ao invés de fazer do zero pois achei que seria uma experiência interessante aprender a mudar configurações como cor (lancei um azul FGV na sidebar) e excluir/adicionar seções em um documento que não entendo o que cada coisa significa, e realmente, foi divertidíssimo, bati bastante a cabeça para mexer em algumas coisas até hahaha;
+
+%como com certeza ainda não tenho conteúdo o suficiente para duas páginas de currículo, a segunda não ficou tão objetiva, mas acho que foram comentários úteis sobre diversos pontos do currículo que acabariam gerando dúvidas por si só, como a graduação na UTFPR sem ano de início;
+
+%também optei por matar algumas fadas latino-americanas traduzindo o nome das graduações e cursos, fiquei em dúvida sobre o que seria mais correto, isso ou manter em português;
+
+%pensei em editar a foto por conta de tudo aquilo sobre cabelo comprido e mercade de trabalho, talvez algo mais formal fosse melhor pra um currículo, porém não sei acho que eu não abriria mão da minha identidade pra trabalhar em um lugar :p resolvi manterc
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\usepackage{blindtext}
+\usepackage{hyperref}
+\usepackage{url} 
+%---------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{perfil.jpg} % Profile picture
+
+\cvname{Victor Mendes} % Your name
+\cvjobtitle{\normalsize{Atualmente estudando com foco em \\ front-end pelo Rocketseat;}} % Job title/career
+
+\cvdate{20 anos} % Date of birth
+\cvaddress{União da Vitóra, PR, Brasil} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+55 42 9854-4921 (wpp)} % Phone number
+\cvsite{\href{http://github.com/victormends}{github.com/victormends}}
+\cvmail{j.victor8@hotmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Sou um curioso nato, sempre gostei de aprender sobre tudo e entender como a informação se conecta e como ela influencia tudo no mundo. Ver o mundo com um cuidadoso viés de dados sempre foi além de um hobby, um modo de vida e uma filosofia para mim.}% To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+\section{Interesses}
+
+Após um longo período dedicado aos estudos, pretendo colocar em prática meus aprendizados e ao mesmo tempo continuar aprendendo ainda mais trabalhando com a empresa.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educação}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2021-2022}{Graduação em Ciência de Dados.}{Rio de Janeiro}{FGV, Brasil.}
+	\twentyitem{2020-2020}{Graduação Ciências Econômicas.}{Rio de Janeiro}{FGV, Brasil.}
+	\twentyitem{2018-2019}{Técnico em Auxiliar Administrativo.}{União da Vitória}{SENAI/PR, Brasil.}
+	\twentyitem{2018-2018}{Programa "Introduçao ao Mundo dos Negócios".}{União da Vitória}{Junior Achievement, Brasil.}
+	\twentyitem{2018-2018}{Programa "Miniempresa".}{União da Vitória}{Junior Achievement, Brasil.}
+	\twentyitem{2017-2019}{Ensino Médio.}{União da Vitória}{SESI/PR, Brasil.}
+	\twentyitem{2014-2017}{Iniciação Científica Jr.}{União da Vitória}{PIC-OBMEP, Brasil.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Prêmios}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+    \twentyitemshort{2018}{3º Lugar Regional e Top 10 Estadual, Miniempresa - Jr. Achievement}
+	\twentyitemshort{2018}{1º Lugar no Grand Prix de Inovação - SENAI}
+	\twentyitemshort{2016}{Medalha de Prata - OBMEP.}
+	\twentyitemshort{2014}{Medalha de Bronze - OBMEP.}
+	\twentyitemshort{2013, 2015}{Menção Honrosa - OBMEP.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiência}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2019-2019}{Jovem Aprendiz}{União da Vitória}{SESI/PR, Brasil.}
+
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%---------------------------------------------------------------------------------------
+
+\section{Competências}\\
+-Conhecimento em design gráfico e edição de imagens.   \href{http://www.instagram.com/_mednesss}{\textit{(instagram)}}\\
+-Conhecimento em pesquisa a análise de dados.
+
+\section{Idiomas}
+
+\subsection{Inglês}{Compreende Bem, Fala Bem, Lê Bem, Escreve Bem.}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+\section{Informação Extra}
+
+Iniciei minha graduação em Economia e em Ciência de dados como bolsista do CDMC, um Projeto da OBMEP que convoca medalhistas recorrentes para estudar na FGV; 
+
+Nessa nova fase pretendo aprender trabalhando e interagindo com pessoas, e com certeza uma Agência de Comunicação é o melhor lugar possível para isso!
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
